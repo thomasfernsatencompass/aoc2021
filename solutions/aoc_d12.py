@@ -1,27 +1,21 @@
-puzzle="""mj-TZ
-start-LY
-TX-ez
-uw-ez
-ez-TZ
-TH-vn
-sb-uw
-uw-LY
-LY-mj
-sb-TX
-TH-end
-end-LY
-mj-start
-TZ-sb
-uw-RR
-start-TZ
-mj-TH
-ez-TH
-sb-end
-LY-ez
-TX-mt
-vn-sb
-uw-vn
-uw-TZ""".splitlines()
+puzzle="""fs-end
+he-DX
+fs-he
+start-DX
+pj-DX
+end-zg
+zg-sl
+zg-pj
+pj-he
+RW-he
+fs-DX
+pj-RW
+zg-RW
+start-pj
+he-WI
+zg-he
+pj-fs
+start-RW""".splitlines()
 puzzle=[x.split("-") for x in puzzle]
  
 routeMap = {}
